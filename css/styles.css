@@ -3,3 +3,23 @@ body {
     background-color: whitesmoke;
     font-family: "Arial Black", Gadget, sans-serif;
 }
+
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 185, 185);
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 6px 24px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover { 
+    background-color: peachpuff;
+    color: rgb(61, 53, 53);
+}
