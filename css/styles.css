@@ -4,7 +4,12 @@ body {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 .navbar {
     margin-left:auto;
     margin-right: auto;
