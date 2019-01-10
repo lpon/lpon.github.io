@@ -6,15 +6,18 @@ body {
 
 
 .navbar {
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     background-color: rgb(255, 185, 185);
 }
 
 .navbar a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 6px 24px;
+    padding: 2px 16px;
     text-decoration: none;
     font-size: 17px;
 }
