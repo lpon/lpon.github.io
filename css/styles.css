@@ -4,6 +4,13 @@ body {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
+.blogpost { 
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 img {
     display: fixed;
     margin-left: auto;
@@ -11,27 +18,32 @@ img {
   }
 
 .logo {
-    width: 400px;
+    width: 500px;
 }
   
-.navbar {
-    margin-left:auto;
-    margin-right: auto;
+ul {
+    margin-left:50px;
+    margin-right: 50px;
     display: flex;
     justify-content: center;
     overflow: hidden;
     background-color: rgb(255, 185, 185);
 }
 
-.navbar a {
+ul a {
     color: #f2f2f2;
     text-align: center;
-    padding: 2px 16px;
+    padding: 1px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
 }
 
-.navbar a:hover { 
+ul a.active {
+    color: rgb(32, 30, 31);
+    background-color: rgb(252, 206, 252);
+  }
+
+ul a:hover { 
     background-color: peachpuff;
-    color: rgb(61, 53, 53);
+    color: rgb(32, 30, 31);
 }
