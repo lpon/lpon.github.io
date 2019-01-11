@@ -1,9 +1,14 @@
 body {
     text-align: center;
-    /* background-color: rgb(10, 9, 10); */
+    background-color: rgb(10, 9, 10);
     font-family: "Arial Black", Gadget, sans-serif;
+    /* font-family: 'Courier New Bold', Courier, monospace; */
     color: rgb(216, 245, 245);
-    background-image: url('../images/soniaandlia_fallstreakstyle.jpg') repeat 0 0;
+    /* background: url('../images/backgroundneon2.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
 }
 
 .blogpost { 
@@ -39,16 +44,14 @@ img {
 }
 
 figure figcaption { 
-    margin: 20px 40px 40px 40px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
 }
 
 .logo {
     display: flex;
     width: 40%;
-    min-width: 300px;
+    min-width: 400px;
 }
   
 ul {
@@ -57,6 +60,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(253, 190, 216);
+    /* background-color: rgb(248, 203, 214); */
 }
 
 
@@ -70,6 +74,7 @@ ul a {
     display: block;
     text-align: center;
     color: rgb(255, 255, 255);
+    /* color: whitesmoke; */
     padding: 3px 0px;
     font-size: 14px;
     text-decoration: none;
@@ -78,6 +83,7 @@ ul a {
 ul a.active {
     color: rgb(32, 30, 31);
     background-color: rgb(172, 247, 248);
+    /* background-color: rgb(203, 251, 252); */
   }
 
 ul a:hover { 
@@ -87,7 +93,7 @@ ul a:hover {
 
 footer { 
     background-color: rgb(46, 38, 46);
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 10px;
     padding: 2px;
     position: fixed;
