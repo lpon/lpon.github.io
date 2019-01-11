@@ -1,29 +1,33 @@
 body {
+    margin: 0 0 100px;
     text-align: center;
     background-color: whitesmoke;
     font-family: "Arial Black", Gadget, sans-serif;
+    padding: 20px;
 }
 
 .blogpost { 
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 img {
     display: fixed;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
+figure figcaption { 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
 
 .logo {
     width: 500px;
 }
   
 ul {
-    margin-left:50px;
-    margin-right: 50px;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -46,4 +50,16 @@ ul a.active {
 ul a:hover { 
     background-color: peachpuff;
     color: rgb(32, 30, 31);
+}
+
+footer { 
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    padding: 2px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
 }
