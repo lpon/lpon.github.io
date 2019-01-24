@@ -1,10 +1,15 @@
+@font-face {
+    font-family: "ZCOOL";
+    src: url('../websiteContent/fonts/ZCOOL_QingKe_HuangYou/ZCOOLQingKeHuangYou-Regular.ttf') format('truetype');
+}
+
 body {
     text-align: center;
     background-color: rgb(10, 9, 10);
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: "ZCOOL", 'Courier New', Courier, monospace;
     /* font-family: 'Courier New Bold', Courier, monospace; */
     color: rgb(216, 245, 245);
-    /* background: url('../images/backgroundneon2.png') no-repeat center center fixed;
+    /* background: url('../images/backgroundneon.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -45,50 +50,59 @@ img {
 
 figure figcaption { 
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .logo {
     display: flex;
-    width: 40%;
+    width: 50%;
     min-width: 400px;
 }
   
 ul {
-    list-style-type: none;
-    margin: 0;
     padding: 0;
+    list-style-type: none;
     overflow: hidden;
-    background-color: rgb(253, 190, 216);
+    /* background-color: rgb(248, 217, 234); */
     /* background-color: rgb(248, 203, 214); */
+    display: flex;
+    margin-left: 0px;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    /* align-items: center;
+    justify-items: center; */
 }
 
 
 ul li {
-    display: inline-block;
-    width: 100%;
+    flex-grow: 1;
+    /* background-color: aliceblue; */
 }
 
 
 ul a {
-    display: block;
+    width: 100%;
+    justify-content: center;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(98, 241, 206);
+    /* color: rgb(255, 255, 255); */
     /* color: whitesmoke; */
-    padding: 3px 0px;
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: none;
 }
 
 ul a.active {
-    color: rgb(32, 30, 31);
-    background-color: rgb(172, 247, 248);
+    /* color: rgb(32, 30, 31); */
+    color: rgb(220, 241, 98);
+    /* background-color: rgb(172, 247, 248); */
     /* background-color: rgb(203, 251, 252); */
   }
 
 ul a:hover { 
-    background-color: peachpuff;
-    color: rgb(32, 30, 31);
+    /* background-color: peachpuff; */
+    /* color: rgb(32, 30, 31); */
+    color: rgb(241, 98, 222);
+
 }
 
 footer { 
